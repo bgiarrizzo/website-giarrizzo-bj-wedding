@@ -31,8 +31,3 @@
     repo: git@gitlab.com:bgiarrizzo/wedding.giarrizzo.fr.git
     dest: /home/web/giarrizzo.fr/wedding/
     update: yes
-
-- name: Remove Deploy Files
-  file:
-    path: "/home/web/giarrizzo.fr/wedding/Deploy"
-    state: absent
