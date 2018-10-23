@@ -1,5 +1,0 @@
-- hosts: all
-  remote_user: root
-  roles:
-    - nginx
-    - wedding_giarrizzo_fr
